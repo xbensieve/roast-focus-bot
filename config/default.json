@@ -1,0 +1,52 @@
+{
+  "focus_duration_seconds": 2700,
+  "distraction_threshold_seconds": 60,
+  "inactivity_threshold_seconds": 180,
+  "cooldown_seconds": 120,
+  "poll_interval_seconds": 1.0,
+  "window_title_max_length": 160,
+  "enable_tts": true,
+  "enable_alarm": true,
+  "tts_rate": 185,
+  "tts_volume": 1.0,
+  "alarm_frequency_hz": 1100,
+  "alarm_duration_ms": 550,
+  "alarm_repetitions": 3,
+  "emergency_hotkey": ["ctrl", "shift", "f12"],
+  "distraction_keywords": [
+    "facebook",
+    "youtube",
+    "instagram",
+    "tiktok",
+    "reddit",
+    "netflix",
+    "twitch",
+    "x.com",
+    "twitter",
+    "discord"
+  ],
+  "ignored_keywords": [
+    "roast & chastise focus bot"
+  ],
+  "roasts": {
+    "distraction": [
+      "Back to work. You did not schedule a career in scrolling.",
+      "That tab is stealing your focus. Close it and get back to the mission.",
+      "Sixty seconds of doomscrolling. Excellent strategy for missing your own deadline.",
+      "Your future self is watching this tab and filing a complaint.",
+      "You came here to focus, not to audition for the internet's least productive user."
+    ],
+    "inactivity": [
+      "Your keyboard has filed an absence report. Start moving.",
+      "The work is not going to type itself. Get back in the ring.",
+      "You have been idle long enough. Resume the task before the task resumes you.",
+      "Hands on the keyboard. Brain in the room. Let's go.",
+      "Productivity alarm. Your chair is doing more work than you are."
+    ],
+    "completion": [
+      "Focus session complete. Well done on staying the course.",
+      "Session finished. Step away, recharge, and celebrate your discipline.",
+      "Target focus duration reached. Mission accomplished."
+    ]
+  }
+}
